@@ -16,10 +16,10 @@ Follow these steps to create and build your ROS 2 workspace:
 2.  **Clone the robot's repository:**
 
     ```bash
-    git clone <repository_link>  # Replace <repository_link> with the actual repository URL
+    git clone https://github.com/Aditya-Bhargava-2000/unitreeb2_ws  
     ```
 
-    * **Important:** Ensure you replace `<repository_link>` with the correct URL of the Unitree B2 ROS 2 repository.
+
 
 3.  **Navigate to the workspace root and build:**
 
@@ -37,5 +37,12 @@ To visualize and control the Unitree B2 robot model, launch the following ROS 2 
 
 ```bash
 ros2 launch b2_description b2_effort.launch.py
+ ```
+
+## 3. Make the Robot Stand
+```bash
+ros2 run b2_movement stand
+```
+
 
 [Demonstration Video](https://youtu.be/-WktVGW36x0)
