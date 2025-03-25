@@ -2,8 +2,6 @@
 # Unitree B2 Workspace Setup
 
 ## 1. Create and Build the ROS 2 Workspace
-
-```bash
 mkdir -p unitreeb2_ws/src
 cd unitreeb2_ws/src
 git clone <repository_link>  # Replace <repository_link> with the actual repository URL
