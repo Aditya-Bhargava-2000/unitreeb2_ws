@@ -28,9 +28,6 @@ Follow these steps to create and build your ROS 2 workspace:
     colcon build && source install/setup.bash
     ```
 
-    * `colcon build`: This command compiles the ROS 2 packages in your workspace.
-    * `source install/setup.bash`: This command sources the setup file, making the ROS 2 packages available in your current terminal session.
-
 ## 2. Launch the Robot Model in Mujoco and RViz with ROS 2 Effort Controller
 
 To visualize and control the Unitree B2 robot model, launch the following ROS 2 launch file:
