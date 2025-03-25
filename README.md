@@ -37,3 +37,5 @@ To visualize and control the Unitree B2 robot model, launch the following ROS 2 
 
 ```bash
 ros2 launch b2_description b2_effort.launch.py
+
+[Demonstration Video](https://youtu.be/-WktVGW36x0)
