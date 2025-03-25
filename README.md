@@ -22,3 +22,5 @@ ros2 launch b2_description b2_effort.launch.py
 ```bash
 ros2 run b2_movement stand
 
+## Demostration Video Link 
+https://youtu.be/-WktVGW36x0
